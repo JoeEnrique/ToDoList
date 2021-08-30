@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title > h1 {
+  margin: 20px 0 20px 50px;
+}
+
+.app {
+  background: #209cee;
+  padding: 20px 30px;
+  height: 100vh;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 600px;
+}
+
+.todocontainer {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+  min-width: 400px;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.completed {
+  background-color: green;
+  color: white;
+}
+
+.canceled {
+  background-color: red;
+  color: white;
+}
+
+.handled {
+  background-color: blue;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-monitor {
+  display: flex;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.flex-child {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0px 10px;
+}
+
+.task-container {
+  display: inline-flex;
+  width: 30%;
+  margin-right: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+}
+
+.message {
+  background-color: aqua;
+  width: 93%;
+  margin: 20px 0;
+}
+
+label {
+  font-weight: bold;
+  margin: auto;
+}
+
+span {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
